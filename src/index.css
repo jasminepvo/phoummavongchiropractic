@@ -1,13 +1,19 @@
 @font-face {
 	font-family: "MavenPro";
-	src: local("MavenPro"), url("./fonts/maven-pro/MavenPro-Regular.ttf");
+	src: local("MavenPro"), url("./fonts/maven-pro/MavenPro-Regular.ttf"),
+		url("./fonts/maven-pro/MavenPro-Bold.ttf");
+}
+@font-face {
+	font-family: "MavenProBold";
+	src: local("MavenPro"), url("./fonts/maven-pro/MavenPro-Bold.ttf");
 }
 
 :root {
-	font-family: MavenPro, Inter, Avenir, Helvetica, Arial, sans-serif;
+	font-family: MavenPro, MavenProBold, Inter, Avenir, Helvetica, Arial,
+		sans-serif;
 	font-size: 16px;
 	line-height: 24px;
-	font-weight: 400;
+	font-weight: 400, 700;
 
 	color-scheme: light dark;
 	color: var(--white);
@@ -48,6 +54,28 @@ body {
 h1 {
 	font-size: 3.2em;
 	line-height: 1.1;
+}
+h4 {
+	font-size: 2.4em;
+	font-family: MavenProBold;
+	line-height: 36px;
+
+	letter-spacing: -0.015em;
+
+	color: var(--darkgrey);
+}
+
+span {
+	font-family: MavenProBold;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 72px;
+	/* or 360% */
+
+	letter-spacing: -0.015em;
+
+	color: var(--darkgrey);
 }
 
 button {
