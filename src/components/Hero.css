@@ -8,25 +8,6 @@
 	position: relative;
 }
 
-/* .hero--heading {
-	outline: 2px solid green;
-	position: absolute;
-	bottom: 100px;
-	margin: 0 auto;
-	text-align: center;
-	width: 100%;
-}
-
-.hero--button {
-	position: absolute;
-	bottom: 50px;
-	margin: 0 auto;
-} */
-
-.hero--button {
-	width: max-content;
-}
-
 .hero-text {
 	width: 100%;
 	height: 70%;
@@ -34,4 +15,12 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
+
+	letter-spacing: -0.015em;
+}
+
+.hero--button {
+	background-color: var(--darkgrey);
+	color: var(--white);
+	padding: 0.6em;
 }
