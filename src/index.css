@@ -1,5 +1,10 @@
+@font-face {
+	font-family: "MavenPro";
+	src: local("MavenPro"), url("./fonts/maven-pro/MavenPro-Regular.ttf");
+}
+
 :root {
-	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	font-family: MavenPro, Inter, Avenir, Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
