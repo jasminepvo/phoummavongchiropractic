@@ -1,5 +1,38 @@
+.about {
+	background: var(--lightgrey);
+	width: 90%;
+	height: 40%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 5% 0;
+}
+
+.about--img {
+	width: 30%;
+	height: 40%;
+	display: flex;
+	justify-content: center;
+}
+.headshot {
+	width: auto;
+	height: 400px;
+}
+
+.about--paragraph {
+	width: 60%;
+	height: 100%;
+}
+
 /* Tablet */
 @media only screen and (max-width: 780px) {
+	.about {
+		flex-direction: column;
+		align-items: center;
+	}
+	.about--paragraph p {
+		margin: 5% 0;
+	}
 }
 
 /* Mobile */
