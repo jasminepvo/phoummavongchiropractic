@@ -1,4 +1,40 @@
 .services {
-	width: 100%;
-	height: 70vh;
+	width: 90%;
+	height: 40vh;
+	margin: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.services-left {
+	width: 25%;
+	height: 100%;
+}
+.services-paragraph {
+	display: flex;
+	flex-direction: column;
+	gap: 5%;
+}
+
+.services-right {
+	width: 70%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+	grid-gap: 0 20px;
+}
+
+.service {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5%;
+}
+
+.service-icon {
+	width: 50px;
+	height: 50px;
+}
+.service-heading,
+.service-description {
+	margin: 0;
 }
