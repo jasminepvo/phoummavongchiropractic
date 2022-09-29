@@ -6,7 +6,6 @@
 	margin: 0 auto;
 	text-align: center;
 	position: relative;
-	outline: 2px solid red;
 }
 
 .hero-text {
@@ -19,9 +18,11 @@
 
 	letter-spacing: -0.015em;
 }
+
 .hero--heading {
-	padding: 0 3%;
+	padding: 0 15%;
 }
+
 .hero--button {
 	background-color: var(--darkgrey);
 	color: var(--white);

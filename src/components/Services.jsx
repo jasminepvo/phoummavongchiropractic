@@ -19,7 +19,6 @@ export default function Services(){
           <p>If you are looking to naturally lower inflammation and prevent chronic diseases, you have arrived at the right place.</p>
           <p>Through chiropractic, myofascial release, and rehab therapy, Dr. Phoummavong will guide you on the path to health and wellness.</p>
         </div>
-        
       </section>
       <section className="services-right">
         <div className="service">
