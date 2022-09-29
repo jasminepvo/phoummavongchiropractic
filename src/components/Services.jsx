@@ -13,7 +13,7 @@ export default function Services(){
     <div className="services">
       <section className="services-left">
         <span>HOW I CAN HELP</span>
-        <h1>Services Offered</h1>
+        <h2>Services Offered</h2>
         <div className="services-paragraph">
           <p>Phoummavong Chiropractic & Wellness provides a full spectrum of non-surgical services to help you reach optimal health.</p>
           <p>If you are looking to naturally lower inflammation and prevent chronic diseases, you have arrived at the right place.</p>
