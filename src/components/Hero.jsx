@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
 import './Navbar.css'
-import Video from '../assets/video1.mp4' 
+import Video from '../assets/video.mp4' 
 
 export default function Hero() {
   return (
     <div className='hero'>
-      <video controls loop muted autoplay reload="auto" >
+      <video loop muted autoPlay reload="auto" >
         <source src={Video} type="video/mp4"/> Your browser does not support the video tag.
         </video>
       <Navbar />
