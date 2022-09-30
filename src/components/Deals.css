@@ -34,7 +34,28 @@
 /* Tablet */
 @media only screen and (max-width: 780px) {
 	.deals {
-		width: 90%;
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.deals p {
+		margin: 0;
+		font-size: 12px;
+		line-height: 139%;
+		letter-spacing: -0.015em;
+		width: 60%;
+	}
+	.deals-buttons {
+		display: flex;
+		flex-direction: row;
+		gap: 5%;
+		width: 60%;
+	}
+	.deals-buttons button {
+		padding: 0.6em 2em;
+		height: 25px;
+		font-size: 8px;
 	}
 }
 
