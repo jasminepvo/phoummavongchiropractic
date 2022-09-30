@@ -1,0 +1,32 @@
+.whatToExpect {
+	width: 95%;
+	height: 50vh;
+	padding: 5% 0 5% 5%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/* Left side - content */
+.whatToExpect--content {
+	width: 50%;
+	height: 90%;
+}
+
+.whatToExpect--icon {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 2%;
+}
+.content-icon {
+	width: 30px;
+	height: 30px;
+}
+
+/* Left side - image */
+.whatToExpect--img {
+	width: 50%;
+	height: 90%;
+	background: url("../assets/cupping.jpeg");
+	opacity: 70%;
+}

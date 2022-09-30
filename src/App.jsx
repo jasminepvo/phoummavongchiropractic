@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import './components/Hero.css'
 import Services from './components/Services'
 import About from './components/About'
+import WhatToExpect from './components/WhatToExpect'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Services />
       <About />
+      <WhatToExpect />
     </div>
   )
 }
