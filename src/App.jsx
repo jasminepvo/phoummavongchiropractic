@@ -13,7 +13,7 @@ function App() {
 			<Services />
 			<About />
 			<WhatToExpect />
-			{/* <Testimonials /> */}
+			<Testimonials />
 		</div>
 	);
 }
