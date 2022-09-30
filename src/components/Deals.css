@@ -1,5 +1,41 @@
+.deals {
+	width: 80%;
+	height: 10vh;
+	padding: 5%;
+	margin: 5%;
+	background-color: var(--lightgrey);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	gap: 5%;
+}
+.deals p {
+	margin: 0;
+	font-size: 30px;
+	line-height: 139%;
+	letter-spacing: -0.015em;
+	width: 60%;
+}
+.deals-buttons {
+	display: flex;
+	flex-direction: row;
+	gap: 5%;
+	width: 25%;
+}
+.deals-buttons button {
+	padding: 0.6em 2em;
+}
+.dark-button {
+	background-color: var(--darkgrey);
+	color: var(--white);
+}
+
 /* Tablet */
 @media only screen and (max-width: 780px) {
+	.deals {
+		width: 90%;
+	}
 }
 
 /* Mobile */
