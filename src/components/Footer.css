@@ -1,3 +1,62 @@
+.footer {
+	width: 90%;
+	height: 25vh;
+	padding: 5%;
+	background-color: var(--grey);
+}
+.footer--info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.footer--info img {
+	height: 150px;
+	width: auto;
+}
+
+.info-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	gap: 5%;
+}
+
+.info-content * {
+	width: max-content;
+}
+
+.info-content h5,
+p {
+	margin: 0;
+}
+.info-content h5 {
+	font-family: MavenProBold;
+	font-size: 20px;
+	line-height: 32px;
+	/* or 360% */
+
+	letter-spacing: -0.015em;
+	color: var(--darkgrey);
+}
+
+.footer--additional {
+	border-top: 1px solid var(--white);
+	margin-top: 2%;
+	padding: 2% 0;
+	color: var(--darkgrey);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.footer-socials {
+	display: flex;
+	flex-direction: row;
+	gap: 2%;
+}
+.footer-socials i {
+	width: 50px;
+}
+
 /* Tablet */
 @media only screen and (max-width: 780px) {
 }

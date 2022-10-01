@@ -6,6 +6,7 @@ import About from "./components/About";
 import WhatToExpect from "./components/WhatToExpect";
 import Testimonials from "./components/Testimonials";
 import Deals from "./components/Deals";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 			<WhatToExpect />
 			<Testimonials />
 			<Deals />
+			<Footer />
 		</div>
 	);
 }
