@@ -11,7 +11,7 @@
 }
 .footer--info img {
 	height: 150px;
-	width: auto;
+	width: 200px;
 }
 
 .info-content {
@@ -37,6 +37,10 @@ p {
 
 	letter-spacing: -0.015em;
 	color: var(--darkgrey);
+}
+.info-directions img {
+	width: 125px;
+	height: auto;
 }
 
 .footer--additional {

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import Logo from "../assets/logo-light cropped.png";
+import Map from "../assets/map.jpg";
 
 export default function Footer() {
 	return (
@@ -35,7 +36,10 @@ export default function Footer() {
 						</p>
 					</div>
 					<div className="info-directions">
-						<h5>Get Directions</h5>
+						<h5>
+							<a href=""></a> Get Directions
+						</h5>
+						<img src={Map} alt="" />
 					</div>
 				</div>
 			</div>
