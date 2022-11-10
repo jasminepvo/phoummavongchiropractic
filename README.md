@@ -1,6 +1,7 @@
 # ChiroCMS
-Developing a landing page for a client that directs to a login page of a built in CMS(contact management system) with REST API's integration & features such as authentification, appointment setting, calendar view, notifications and newsletter to be updated by the admin using an admin dashboard. Stay tuned for updates.
-**Link to project:** https://phoummavong.netlify.app/
+Landing page for a client that will direct to a login page of a built in CMS(contact management system) with REST API's integration & features such as authentification, appointment setting, calendar view, notifications and newsletter to be updated by the admin using an admin dashboard. Backend not posted due to being owned by client. 
+
+**Link to project:** https://phoummavongchiropractic.com/
  
 ![phoummavong](https://user-images.githubusercontent.com/99847030/196756385-a6cb7580-97df-45e2-aa1c-64d45186c7cd.gif)
 
@@ -57,7 +58,7 @@ Building...
 
 Hosting...
 - Netlify
-- Railway
+- Next.js
 
 <!---
 ## Optimizations
