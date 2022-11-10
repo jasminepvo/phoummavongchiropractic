@@ -27,7 +27,7 @@ const Testimonials = () => {
 
 	return (
 		<div className="testimonials">
-			<span>What Clients Say</span>
+			<span>WHAT CLIENTS SAY</span>
 			<h2>Client Testimonials</h2>
 			<section className="testimonial--section">
 				{people.map((item, indexPeople) => {
@@ -44,10 +44,10 @@ const Testimonials = () => {
 					}
 					return (
 						<article className={position} key={id}>
-							<img src={image} alt={name} className="person-img" />
-							<h4>{name}</h4>
-							<p className="title">{title}</p>
+							{/* <img src={image} alt={name} className="person-img" /> */}
 							<p className="text">{quote}</p>
+							<h4>- {name}</h4>
+							<p className="title">{title}</p>
 						</article>
 					);
 				})}

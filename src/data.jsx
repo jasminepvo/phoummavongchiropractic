@@ -1,35 +1,18 @@
 const people = [
 	{
 		id: 1,
-		image: "/images/Person1.jpeg",
-		name: "Haryy Stamper",
-		title: "manager",
+		image: "",
+		name: "Kris Watson",
+		title: "Personal Trainer, Bodybuilder in Classic Physique",
 		quote:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+			"Peter is the most professional and knowledgeable chiropractic/deep tissue therapist I’ve had. He truly cares about the issues his client has and asks questions about their lifestyle as well as their training tendencies and frequency to grasp the overall big picture of how to treat them. He’s very in depth with explaining why he’s doing something and doesn’t just go through the motions, I know this cause every time I leave I learn something new about my body and how to maintain my body better. You won’t be disappointed, he’ll most likely exceed all expectations-Watson",
 	},
 	{
 		id: 2,
-		image: "/images/Person2.png",
-		name: "James Gun",
-		title: "Project Manager",
-		quote:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
-	},
-	{
-		id: 3,
-		image: "/images/Person3.jpg",
-		name: "Michael Mosely",
-		title: "Product Manager",
-		quote:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-	},
-	{
-		id: 4,
-		image: "/images/Person4.jpg",
-		name: "James Van",
-		title: "Vice President",
-		quote:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+		image: "",
+		name: "Abraham Celedon",
+		title: "Personal Trainer, Bodybuilder",
+		quote: " ",
 	},
 ];
 
